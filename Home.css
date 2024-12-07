@@ -1,0 +1,71 @@
+.home-container {
+  padding: 50px;
+  text-align: center;
+  background-image: image('bg.jpg'); /* Corrected the background-image property */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #333; /* Changed text color for better contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-header {
+  background-color: #9e9e9e; /* Changed the header color to a more attractive purple */
+  color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  margin: 0 0 20px;
+  color: #740808;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.home-get-started {
+  margin-top: 30px;
+  color: #000;
+  width: 100%; /* Ensure the width is 100% */
+  display: flex;
+  flex-direction: column; /* Stack contents vertically */
+  align-items: center; /* Center contents horizontally */
+}
+
+.home-get-started h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #050405; /* Match with header color */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+  width: 100%;
+}
+
+.home-buttons button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  margin: 10px 0; /* Add margin between buttons */
+  border: none;
+  background-color: #740808; /* Changed button color to a vibrant red */
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-buttons button:hover {
+  background-color: #c0392b; /* Darker shade of the button color on hover */
+  transform: scale(1.05);
+}

@@ -1,0 +1,86 @@
+.add-internship-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.add-internship-container h2 {
+  color: #34495e;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#titleid, #durationid, #locationid, #descriptionid {
+  color: #2c3e50;
+}
+
+.title, .description {
+  color: #2c3e50;
+}
+
+.add-internship-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f7f9fc;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+  outline: none;
+}
+
+button.add-internship-button {
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button.add-internship-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.success-message {
+  color: #27ae60;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 1rem;
+  margin-top: 20px;
+}
